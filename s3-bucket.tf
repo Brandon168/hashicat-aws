@@ -3,6 +3,8 @@ module "s3_bucket" {
 
   bucket = "my-s3-bucket"
   acl    = "private"
+  bucket_prefix = "belliott"
+  prefix = "prefix-test"
 
   versioning = {
     enabled = true
